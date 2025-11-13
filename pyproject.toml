@@ -1,0 +1,23 @@
+[project]
+name = "cohort5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.4.1",
+    "jupyter>=1.1.1",
+    "langfuse>=3.8.1",
+    "llama-index>=0.14.7",
+    "llama-index-embeddings-huggingface>=0.6.1",
+    "llama-index-readers-web>=0.5.6",
+    "llama-index-vector-stores-qdrant>=0.8.6",
+    "llama-index-vector-stores-supabase>=0.4.1",
+    "pydantic-ai-slim[logfire,openai]>=1.9.1",
+    "pymupdf-layout>=1.26.6",
+    "pymupdf4llm>=0.2.0",
+    "python-dotenv>=1.2.1",
+    "python-telegram-bot>=22.5",
+    "qdrant-client>=1.15.1",
+    "streamlit>=1.51.0",
+]
